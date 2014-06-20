@@ -1,5 +1,6 @@
 touch text1.txt
 for ii in {1..15};
 do 
-    echo $ii >> text1.txt
+    let j=ii+1
+    echo $ii $j >> text1.txt
 done
