@@ -3,5 +3,6 @@ touch text1.txt
 for ii in {1..15};
 do 
     let j=ii+1
-    echo $ii $j >> text1.txt
+    let k=ii+2
+    echo $ii $j $k >> text1.txt
 done
