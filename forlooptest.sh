@@ -1,4 +1,5 @@
 # generate data
+#added comment 1
 touch text1.txt
 for ii in {1..15};
 do 
